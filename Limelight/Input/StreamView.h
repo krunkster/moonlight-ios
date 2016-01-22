@@ -19,5 +19,6 @@
 
 - (void) setupOnScreenControls:(ControllerSupport*)controllerSupport swipeDelegate:(id<EdgeDetectionDelegate>)swipeDelegate;
 - (void) setMouseDeltaFactors:(float)x y:(float)y;
+- (void) setTouchScreenFactors:(int)x y:(int)y;
 
 @end

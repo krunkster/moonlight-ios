@@ -17,5 +17,8 @@
 @dynamic width;
 @dynamic onscreenControls;
 @dynamic uniqueId;
+@dynamic mouseEmulation;
+@dynamic hostResolutionWidth;
+@dynamic hostResolutionHeight;
 
 @end

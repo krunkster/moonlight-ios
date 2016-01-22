@@ -18,5 +18,8 @@
 @property (nonatomic, retain) NSNumber * width;
 @property (nonatomic, retain) NSNumber * onscreenControls;
 @property (nonatomic, retain) NSString * uniqueId;
+@property (nonatomic, retain) NSNumber * mouseEmulation;
+@property (nonatomic, retain) NSNumber * hostResolutionWidth;
+@property (nonatomic, retain) NSNumber * hostResolutionHeight;
 
 @end

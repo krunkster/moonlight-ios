@@ -87,6 +87,7 @@
     CGSize screenSize = CGSizeMake(screenBounds.size.width * screenScale, screenBounds.size.height * screenScale);
     [((StreamView*)_renderView) setMouseDeltaFactors:_config.width / screenSize.width
                                                    y:_config.height / screenSize.height];
+    [((StreamView*)_renderView) setTouchScreenFactors:screenBounds.size.width y:screenBounds.size.height];
     
     int majorVersion = [[appversion substringToIndex:1] intValue];
     Log(LOG_I, @"Server is generation %d", majorVersion);
